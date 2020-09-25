@@ -64,6 +64,7 @@ Timeline
 6. 1:30 - Create new application (see step 3 in process and decision making) and transfer README content to new application.
 7. Read through article on react with ASP.NET Core https://www.red-gate.com/simple-talk/dotnet/asp-net/a-real-world-react-js-setup-for-asp-net-core-and-mvc5/ and then continue to follow along with react-redux with ASP.NET Core setup documentation https://docs.microsoft.com/en-us/aspnet/core/client-side/spa/react?view=aspnetcore-2.2&tabs=netcore-cli
 8. Successfully build and run project with boilerplate web template
+9. 2:00 to 5:00 - Work on wireframe and component design with Figma
 
 
 ## <p align = "center"> Documentation used for this project
@@ -95,12 +96,21 @@ Timeline
 * Visual Studio Code IDE
 * Git for Version Control
 * Markdown for documentation
+* Figma - design planning
 * React with Redux
 * ASP.NET Core
 * 
 * 
 * 
 * 
+
+### Attributes that need to be included
+1. For airplane vector icon 
+* Icons made by <a href="https://www.flaticon.com/authors/good-ware" title="Good Ware">Good Ware</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
+2. For dog image
+* <span>Photo by <a href="https://unsplash.com/@ben_wong_31?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Benjamin Wong</a> on <a href="https://unsplash.com/s/photos/pets-travel?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
+3. Search icon
+* Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
 
 
 ### License
