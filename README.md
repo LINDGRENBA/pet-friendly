@@ -114,3 +114,5 @@ Timeline
 
 
 ### License
+This site is licensed under the MIT license
+Copyright (c) 2020 Brittany A Lindgren
