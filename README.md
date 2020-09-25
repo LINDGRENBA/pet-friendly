@@ -52,7 +52,7 @@ This app will make it easier for pet owners to travel with their pets. Searching
 1. Read Documentation, decide which version of React to use
 2. Will use React with Redux + ASP.NET Core 
 3. Create new application using `dotnet new reactredux -o Pet-Friendly`
-4. 
+4. Note that documentation states project is initiated with two apps - ASP.NET Core and React. ASP.NET Core app is intended for data access, authorization and server-side concerns while React app (located in ClientApp subdirectory) is intended for all UI concerns.
 5.
 
 Timeline
@@ -63,30 +63,33 @@ Timeline
 5. 1:00 - Look at resources posted in discord. 
 6. 1:30 - Create new application (see step 3 in process and decision making) and transfer README content to new application.
 7. Read through article on react with ASP.NET Core https://www.red-gate.com/simple-talk/dotnet/asp-net/a-real-world-react-js-setup-for-asp-net-core-and-mvc5/ and then continue to follow along with react-redux with ASP.NET Core setup documentation https://docs.microsoft.com/en-us/aspnet/core/client-side/spa/react?view=aspnetcore-2.2&tabs=netcore-cli
+8. Successfully build and run project with boilerplate web template
 
 
 ## <p align = "center"> Documentation used for this project
+* **https://docs.microsoft.com/en-us/aspnet/core/client-side/spa/react?view=aspnetcore-2.2&tabs=netcore-cli**
 * https://reactjs.org/docs/getting-started.html
-* https://docs.microsoft.com/en-us/aspnet/core/client-side/spa/react?view=aspnetcore-2.2&tabs=netcore-cli
 * https://docs.microsoft.com/en-us/aspnet/core/client-side/spa/react-with-redux?view=aspnetcore-2.2
 * https://www.youtube.com/watch?v=da7pyc918jo
 * https://www.youtube.com/watch?v=lW7DWV2jST0
 * https://www.red-gate.com/simple-talk/dotnet/asp-net/a-real-world-react-js-setup-for-asp-net-core-and-mvc5/
-* 
+* https://docs.microsoft.com/en-us/aspnet/core/client-side/spa/react?view=aspnetcore-2.2&tabs=netcore-cli
 * 
 * 
 
 
 ## <p align = "center">  <u>**Set Up on Your Local Machine**</u>
-1. 
-2. 
-3.
-4.
-5.
+1. Clone project from github
+2. Open in IDE / Text Editor
+3. Open terminal
+4. Check that you are in the main directory, file path should end with `Capstone/Pet-Friendly`. If you are not in the main directory, navigate to main directory with `cd Pet-Friendly`
+5. Enter the following commands, in order to install, build and run the application :
+* `npm install`  (This command is only necessary the first time you open the project on your computer. It may take several minutes for the install to complete - this is normal)
+* `dotnet build` 
+* `dotnet run`
 <br>
 <hr>
-<br>
-<hr>
+
 
 ### Technologies used for this project
 * Visual Studio Code IDE
