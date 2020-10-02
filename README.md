@@ -79,8 +79,8 @@ September 25th 2020:
 October 2nd 2020:
 1. 8:00 am - re-assess MVP and Stretch goals, consider structure of website in preparation to complete Figma wireframe.
 2. 8:30 am to 11:00 - am complete Figma wireframe for project (includes MVP and some Stretch)
-3. 11:00 to TBD - Observe and note how auto generated files are set up to understand how project front and back end are connected
-4. TBD - Prioritize MVC from simplest to most complex goals
+3. 11:00 to 3:02 - Observe and note how auto generated files are set up to understand how project front and back end are connected
+4. 3:00 to TBD - research CRUD functionality with React + ASP.Net Core Web Application
 
 
 ## <p align = "center"> Documentation used for this project
@@ -115,7 +115,7 @@ October 2nd 2020:
 * Figma - design planning
 * React with Redux
 * ASP.NET Core
-* 
+* TypeScript
 * 
 * 
 * 
