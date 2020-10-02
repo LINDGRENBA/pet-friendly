@@ -80,10 +80,10 @@ October 2nd 2020:
 1. 8:00 am - re-assess MVP and Stretch goals, consider structure of website in preparation to complete Figma wireframe.
 2. 8:30 am to 11:00 - am complete Figma wireframe for project (includes MVP and some Stretch)
 3. 11:00 to 3:02 - Observe and note how auto generated files are set up to understand how project front and back end are connected
-4. 3:00 to TBD - research CRUD functionality with React + ASP.Net Core Web Application
+4. 3:00 to 5:00 - research CRUD functionality with React + ASP.Net Core Web Application
 
 
-## <p align = "center"> Documentation used for this project
+## <p align = "center"> Documentation and Resources used for this project
 * **https://docs.microsoft.com/en-us/aspnet/core/client-side/spa/react?view=aspnetcore-2.2&tabs=netcore-cli**
 * https://reactjs.org/docs/getting-started.html
 * https://docs.microsoft.com/en-us/aspnet/core/client-side/spa/react-with-redux?view=aspnetcore-2.2
@@ -91,7 +91,7 @@ October 2nd 2020:
 * https://www.youtube.com/watch?v=lW7DWV2jST0
 * https://www.red-gate.com/simple-talk/dotnet/asp-net/a-real-world-react-js-setup-for-asp-net-core-and-mvc5/
 * https://docs.microsoft.com/en-us/aspnet/core/client-side/spa/react?view=aspnetcore-2.2&tabs=netcore-cli
-* 
+* https://youtu.be/NjN00cM18Z4
 * 
 
 
