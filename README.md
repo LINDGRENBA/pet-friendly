@@ -23,14 +23,15 @@ This app will make it easier for pet owners to travel with their pets. Searching
 | Minimum Viable Product | What technologies or tools will be needed to achieve this MVP | Notes and Considerations |
 | ----- | ----- | ------ |
 |  Users should be able to search by location and receive results for pet friendly restaurants, shops, hotels, etc.  |  Custom API / Pre-existing API (Google Maps, AirBnB, etc.) / .NET-Core backend to handle fetching from API  |  Integrating several APIs in one project may be complex. May need to begin with a single custom faux-API created as proof of concept and integrate other API as stretch goal.  |
-|  Users should be able to create a 'favorites' list and save search results to the 'favorites' list  |  Will need a database - MySQL, Firebase / Firestore or MongoDB  |  no further notes at this time  |
-|  Users should be able to leave reviews / read reviews about how pet friendly each location is - this will help take the guesswork out of choosing a place to stay / eat / shop, etc.  |  Register / Login capabilities so that users have full CRUD functionality for their own reviews and read only for other users' reviews. Use React / Redux frontend  |  no further notes at this time  |    
+|  Users should be able to create a 'trip' list on the MyTrips page and save search results to the list  |  Will need a database - MySQL, Firebase / Firestore or MongoDB  |  see stretch goals for further expansion on list capabilities  |
+|  Users should be able to leave reviews / read reviews about how pet friendly each location is - this will help take the guesswork out of choosing a place to stay / eat / shop, etc.  |  Register / Login capabilities so that users have full CRUD functionality for their own reviews and read only for other users' reviews. Use React / Redux frontend *NOTE: Full CRUD functionality may be better suited to stretch goals than MVP, will prioritize other MVC items  |  no further notes at this time  |    
 <br>
 <br>
 
 ### <p align = "center"> **Stretch Goals**
 | What additional features will be added | What technologies or tools will be needed | Notes and Considerations |
 | ----- | ----- | ------ |
+|  User will have full CRUD functionality for their 'trip' lists. Lists will auto populate with categories to which user can add search results  |  Database / Model and Controller in .NET backend  |  no further notes at this time  |
 |  Map display of a search area  |  Google Maps API / Google Places API  |  limited number of API uses, then charged for each use  |
 |  Use IP address to limit number of reviews per day or searches per second  |  ?  |  no further notes at this time  |
 |  Infinite scroll or paginations to limit number of search results displayed  |  JavaScript / jQuery for infinite scroll or .NET-Core for pagination  | no further notes at this time  |
@@ -39,7 +40,9 @@ This app will make it easier for pet owners to travel with their pets. Searching
 |  Display login / register in a modal  |  CSS or Sass  |  no further notes at this time  |
 |  Style the app  |  CSS or Sass  |  no further notes at this time  |
 |  Users can add additional search parameters. For example `traveling with dog` and `require wheel chair access` or add more specific information about what type of pet they're traveling with, such as `dog` or `boa-constrictor`  |  Complex search queries  |  Firebase / Firestore may work well for MVP, but has limited query capabilities - need to research which databases work well with React and have complex query capabilities  |
-|  Travel section where users can specify `1. Where they're traveling, 2. How they're getting there` and `3. What type of pet they're traveling with.` The user will then be shown or directed to information about what they need to know to successfully travel with their pet  |  ?  |  no further notes at this time  |
+|  Travel section where users can specify `1. Where they're traveling, 2. How they're getting there` and `3. What type of pet they're traveling with.` The user will then be shown or directed to information about what they need to know to successfully travel with their pet  |  will need to reseach options  |  no further notes at this time  |
+|  Deploy site  |  will need to reseach options  |  may be able to deploy using Gatsby, but project not initially built with Gatsby, so may need other tools  |
+|    |    |    |
 |    |    |    |
 
 ### <p align = "center"> **Other Considerations**
@@ -56,6 +59,7 @@ This app will make it easier for pet owners to travel with their pets. Searching
 5.
 
 Timeline
+September 25th 2020:
 1. 8:00 am - use npx-create-react-app to set up application with gitignore and readme
 2. 8:30 am - begin to document in README
 3. 9:30 to approx 11:00 - read react documentation, read postresql documentation, watch videos on different databases to use with react, then remembered plan to use react-redux with asp.net
@@ -65,6 +69,10 @@ Timeline
 7. Read through article on react with ASP.NET Core https://www.red-gate.com/simple-talk/dotnet/asp-net/a-real-world-react-js-setup-for-asp-net-core-and-mvc5/ and then continue to follow along with react-redux with ASP.NET Core setup documentation https://docs.microsoft.com/en-us/aspnet/core/client-side/spa/react?view=aspnetcore-2.2&tabs=netcore-cli
 8. Successfully build and run project with boilerplate web template
 9. 2:00 to 5:00 - Work on wireframe and component design with Figma
+
+October 2nd 2020:
+1. 8:00 am - complete Figma wireframe for project
+2. TBD - Prioritize MVC from simplest to most complex goals
 
 
 ## <p align = "center"> Documentation used for this project
