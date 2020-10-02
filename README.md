@@ -23,8 +23,9 @@ This app will make it easier for pet owners to travel with their pets. Searching
 | Minimum Viable Product | What technologies or tools will be needed to achieve this MVP | Notes and Considerations |
 | ----- | ----- | ------ |
 |  Users should be able to search by location and receive results for pet friendly restaurants, shops, hotels, etc.  |  Custom API / Pre-existing API (Google Maps, AirBnB, etc.) / .NET-Core backend to handle fetching from API  |  Integrating several APIs in one project may be complex. May need to begin with a single custom faux-API created as proof of concept and integrate other API as stretch goal.  |
-|  Users should be able to create a 'trip' list on the MyTrips page and save search results to the list  |  Will need a database - MySQL, Firebase / Firestore or MongoDB  |  see stretch goals for further expansion on list capabilities  |
-|  Users should be able to leave reviews / read reviews about how pet friendly each location is - this will help take the guesswork out of choosing a place to stay / eat / shop, etc.  |  Register / Login capabilities so that users have full CRUD functionality for their own reviews and read only for other users' reviews. Use React / Redux frontend *NOTE: Full CRUD functionality may be better suited to stretch goals than MVP, will prioritize other MVC items  |  no further notes at this time  |    
+|  Users should be able to create a 'destination' list on the MyTrips page and add destinations  |  Will need a database - MySQL, Firebase / Firestore or MongoDB  |  see stretch goals for further expansion on list capabilities  |
+|  Users should be able to add a location search result to a destination | Will need a database - MySQL, Firebase / Firestore or MongoDB  |  see stretch goals for further expansion on list capabilities  |
+   
 <br>
 <br>
 
@@ -32,6 +33,7 @@ This app will make it easier for pet owners to travel with their pets. Searching
 | What additional features will be added | What technologies or tools will be needed | Notes and Considerations |
 | ----- | ----- | ------ |
 |  User will have full CRUD functionality for their 'trip' lists. Lists will auto populate with categories to which user can add search results  |  Database / Model and Controller in .NET backend  |  no further notes at this time  |
+|  Users should be able to leave reviews / read reviews about how pet friendly each location is - this will help take the guesswork out of choosing a place to stay / eat / shop, etc.  |  Register / Login capabilities so that users have full CRUD functionality for their own reviews and read only for other users' reviews. Use React / Redux frontend *NOTE: Full CRUD functionality may be better suited to stretch goals than MVP, will prioritize other MVC items  |  no further notes at this time  | 
 |  Map display of a search area  |  Google Maps API / Google Places API  |  limited number of API uses, then charged for each use  |
 |  Use IP address to limit number of reviews per day or searches per second  |  ?  |  no further notes at this time  |
 |  Infinite scroll or paginations to limit number of search results displayed  |  JavaScript / jQuery for infinite scroll or .NET-Core for pagination  | no further notes at this time  |
@@ -44,6 +46,10 @@ This app will make it easier for pet owners to travel with their pets. Searching
 |  Deploy site  |  will need to reseach options  |  may be able to deploy using Gatsby, but project not initially built with Gatsby, so may need other tools  |
 |    |    |    |
 |    |    |    |
+
+### <p align = "center"> **Model**
+
+![PetFriendly Model](./wwroot/images/petfriendly-model.png)
 
 ### <p align = "center"> **Other Considerations**
 1. What type of license should I use if I want to maintain ownership of this application - look into licensing, re-read MIT license terms
@@ -71,8 +77,9 @@ September 25th 2020:
 9. 2:00 to 5:00 - Work on wireframe and component design with Figma
 
 October 2nd 2020:
-1. 8:00 am - complete Figma wireframe for project
-2. TBD - Prioritize MVC from simplest to most complex goals
+1. 8:00 am - re-assess MVP and Stretch goals, consider structure of website in preparation to complete Figma wireframe.
+2. 8:30 am - complete Figma wireframe for project
+3. TBD - Prioritize MVC from simplest to most complex goals
 
 
 ## <p align = "center"> Documentation used for this project
