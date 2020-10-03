@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { Collapse, Container, Navbar, NavbarBrand, NavbarToggler, NavItem, NavLink } from 'reactstrap';
-import { Link } from 'react-router-dom';
+import { Link, Switch, Route } from 'react-router-dom';
 import './NavMenu.css';
 
 export default class NavMenu extends React.PureComponent<{}, { isOpen: boolean }> {
@@ -21,10 +21,21 @@ export default class NavMenu extends React.PureComponent<{}, { isOpen: boolean }
                                     <NavLink tag={Link} className="text-dark" to="/">Home</NavLink>
                                 </NavItem>
                                 <NavItem>
-                                    <NavLink tag={Link} className="text-dark" to="/counter">Counter</NavLink>
+                                    <NavLink tag={Link} className="text-dark" to="/my-trips-control">MyTrips</NavLink>
                                 </NavItem>
                                 <NavItem>
-                                    <NavLink tag={Link} className="text-dark" to="/fetch-data">Fetch data</NavLink>
+                                    <NavLink tag={Link} className="text-dark" to="/profile-control">Profile</NavLink>
+                                </NavItem>
+                                <NavItem>
+                                    <NavLink tag={Link} className="text-dark" to="">Log Out</NavLink>
+                                </NavItem>
+                                
+                                {/* get rid of links below at later date */}
+                                <NavItem>
+                                    <NavLink tag={Link} className="text-dark auto-populated" to="/counter">Counter</NavLink>
+                                </NavItem>
+                                <NavItem>
+                                    <NavLink tag={Link} className="text-dark auto-populated" to="/fetch-data">Fetch data</NavLink>
                                 </NavItem>
                             </ul>
                         </Collapse>

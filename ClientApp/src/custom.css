@@ -1,4 +1,4 @@
-/* Provide sufficient contrast against white background */
+/* Provide sufficient contrast against white background - THIS STYLES WHOLE SITE */
 a {
   color: #0366d6;
 }
@@ -11,4 +11,10 @@ code {
   color: #fff;
   background-color: #1b6ec2;
   border-color: #1861ac;
+}
+
+
+/* MINE */
+.auto-populated {
+  display: none;
 }

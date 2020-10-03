@@ -82,6 +82,12 @@ October 2nd 2020:
 3. 11:00 to 3:02 - Observe and note how auto generated files are set up to understand how project front and back end are connected
 4. 3:00 to 5:00 - research CRUD functionality with React + ASP.Net Core Web Application
 
+October 3rd 2020:
+1. 11:30 to 12:30 - Set auto populated content on home screen to display: none, add own elements
+2. 12:30 to 12:45 - figure out how to set up custom Links, link to MyTripsControl and ProfileControl pages
+3. 1:00 to 1:15 - reconsider design to create more user friendly experience
+4. 1:15 to 1:50 - add static elements to home, mytrips and profile pages
+
 
 ## <p align = "center"> Documentation and Resources used for this project
 * **https://docs.microsoft.com/en-us/aspnet/core/client-side/spa/react?view=aspnetcore-2.2&tabs=netcore-cli**
@@ -92,7 +98,7 @@ October 2nd 2020:
 * https://www.red-gate.com/simple-talk/dotnet/asp-net/a-real-world-react-js-setup-for-asp-net-core-and-mvc5/
 * https://docs.microsoft.com/en-us/aspnet/core/client-side/spa/react?view=aspnetcore-2.2&tabs=netcore-cli
 * https://youtu.be/NjN00cM18Z4
-* 
+* https://create-react-app.dev/docs/getting-started/
 
 
 ## <p align = "center">  <u>**Set Up on Your Local Machine**</u>
